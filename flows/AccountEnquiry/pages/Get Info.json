@@ -1,0 +1,47 @@
+{
+  "name": "6f6b2fd5-0fe0-40da-b99e-32f24cff5ce4",
+  "displayName": "Get Info",
+  "form": {
+    "parameters": [ {
+      "displayName": "account-id",
+      "required": true,
+      "entityType": "@account-id",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Can i have your 4-6 digits account id?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "date",
+      "required": true,
+      "entityType": "@sys.date",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "Give me a date to retrieve" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "getMostPlayed",
+      "tag": "account-enquiry"
+    },
+    "targetPage": "Check Info",
+    "name": "eb139d89-4a8e-4e6c-a590-d796fd707413"
+  } ]
+}

@@ -1,0 +1,28 @@
+{
+  "name": "a3eec5f0-a6c6-49f9-9811-7dd33606842c",
+  "displayName": "List Most Played",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The most played song in $session.params.genre is $session.params.most_played" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Anything else I can do for you?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "01201a90-0a7b-4119-b6c0-b843694b23c8"
+  } ]
+}

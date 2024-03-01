@@ -1,0 +1,131 @@
+{
+  "name": "13b4ebdc-d745-4752-8bb4-e98df49728d3",
+  "displayName": "change-tier",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "hi"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "Default Welcome Intent"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "I am weiyih, how can i help you?" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "change tier"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "change-tier"
+      },
+      "currentPage": {
+        "name": "Get Tier",
+        "flow": "ChangeTier"
+      },
+      "textResponses": [ {
+        "text": [ "What is the phone number on your account?" ]
+      } ],
+      "currentFlow": {
+        "name": "ChangeTier"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "2112"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "phone-number": "2112"
+      },
+      "currentPage": {
+        "name": "Get Tier",
+        "flow": "ChangeTier"
+      },
+      "textResponses": [ {
+        "text": [ "What should your tier be changed to?" ]
+      } ],
+      "currentFlow": {
+        "name": "ChangeTier"
+      }
+    },
+    "expectations": {
+      "expectedSessionParameters": [ {
+        "key": "phone-number",
+        "value": "2112"
+      } ]
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "gold"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "phone-number": "2112",
+        "tier": "gold"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "Your tier has been updated to gold. Anything else?" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    },
+    "expectations": {
+      "expectedSessionParameters": [ {
+        "key": "phone-number",
+        "value": "2112"
+      }, {
+        "key": "tier",
+        "value": "gold"
+      } ]
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1704014317,
+    "nanos": 220632000
+  },
+  "testConfig": {
+    "trackingParameters": [ "phone-number", "tier" ],
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

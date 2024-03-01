@@ -1,0 +1,10 @@
+{
+  "name": "70ae4cd5-2260-41cb-a6fd-da3e8d09f9b6",
+  "displayName": "account-enquiry",
+  "parameters": [ {
+    "id": "account-id",
+    "entityType": "@account-id"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 11
+}

@@ -1,0 +1,10 @@
+{
+  "name": "c6072fd5-17bf-457b-b60c-ef68796650a4",
+  "displayName": "change-first-name",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}

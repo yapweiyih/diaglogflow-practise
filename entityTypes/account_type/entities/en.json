@@ -1,0 +1,11 @@
+{
+  "entities": [ {
+    "value": "Saving",
+    "synonyms": [ "Saving" ],
+    "languageCode": "en"
+  }, {
+    "value": "Current",
+    "synonyms": [ "Current" ],
+    "languageCode": "en"
+  } ]
+}

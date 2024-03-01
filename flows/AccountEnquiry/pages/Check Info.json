@@ -1,0 +1,27 @@
+{
+  "name": "f5a4b309-6cbc-427d-a53e-3d408eeacc03",
+  "displayName": "Check Info",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$session.params.status != -1",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "List Info",
+    "name": "7b85efe0-d7ba-4e6f-a475-ba0664275eed",
+    "description": "Success"
+  }, {
+    "condition": "$session.params.status = -1",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Failed Info",
+    "name": "72454609-c11e-424e-8152-2175135523f8",
+    "description": "Failed"
+  } ]
+}

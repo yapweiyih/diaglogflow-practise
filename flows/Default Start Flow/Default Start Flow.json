@@ -1,0 +1,141 @@
+{
+  "name": "00000000-0000-0000-0000-000000000000",
+  "displayName": "Default Start Flow",
+  "description": "A start flow created along with the agent",
+  "transitionRoutes": [ {
+    "intent": "Default Welcome Intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I am weiyih, how can i help you?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "嘿！", "你好！", "嘿！ 好久不见！", "欢迎归来。", "嘿！欢迎你回来。" ]
+        },
+        "languageCode": "zh-cn"
+      } ]
+    },
+    "name": "b639582d-465e-49df-acf4-4b66fdd0ca8c"
+  }, {
+    "intent": "test-intent",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Hi $intent.params.person.original" ]
+        },
+        "languageCode": "en"
+      } ],
+      "webhook": "getMostPlayed",
+      "tag": "test-intent",
+      "setParameterActions": [ {
+        "parameter": "test-intent-preset",
+        "value": "abc"
+      } ]
+    },
+    "targetPage": "test-intent-page",
+    "name": "aeb4e524-9009-4bd3-9779-2e7845c0b9a5"
+  }, {
+    "intent": "list-most-played",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Ok, you want to get the most play song, $intent.params" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetFlow": "ListMostPlayed",
+    "name": "3a160d20-47cf-4dc0-9843-df159a99d9e5"
+  }, {
+    "intent": "check.balance",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Get account type",
+    "name": "c5eb6f33-1b8d-47df-9ce6-68a7c8bf041d",
+    "description": "Check balance"
+  }, {
+    "intent": "speak-to-person",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Please stand by while I connect you with a customer service representative." ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Speak to Person",
+    "name": "e0e2149a-9dcb-4fda-9144-3bcc96a599b2",
+    "description": "Speak to person"
+  }, {
+    "intent": "unsubscribe",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Speak to Person",
+    "name": "a4f2ebaa-d69b-4df3-9e0d-b537ad07585c",
+    "description": "Unsubscribe"
+  }, {
+    "intent": "change-tier",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "ChangeTier",
+    "name": "f95a0818-5cae-474d-9a78-473236728c9a"
+  }, {
+    "intent": "more-help\t",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Anything Else",
+    "name": "91e884f0-f621-4bbe-93dd-4d4591fa7d6a"
+  }, {
+    "intent": "account-enquiry",
+    "triggerFulfillment": {
+    
+    },
+    "targetFlow": "AccountEnquiry",
+    "name": "d7cfbc73-09c2-43bc-b157-24cd81918a1c"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "对不起，我听不懂你的问题。", "请你再说一遍。", "我怕我听不懂你的话。", "我对最后的部分还有一些糊涂。", "请再讲一次好吗？" ]
+        },
+        "languageCode": "zh-cn"
+      } ]
+    },
+    "name": "3f36d581-b00e-42e7-886d-be3ac6e39c33"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      }, {
+        "text": {
+          "text": [ "对不起，我听不懂你的问题。", "请你再说一遍。", "我怕我听不懂你的话。", "我对最后的部分还有一些糊涂。", "请再讲一次好吗？" ]
+        },
+        "languageCode": "zh-cn"
+      } ]
+    },
+    "name": "2ab9ae71-d71c-4d6a-b81d-a7d03ef8f3bc"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_ADVANCED",
+    "classificationThreshold": 0.30000001,
+    "modelTrainingMode": "MODEL_TRAINING_MODE_AUTOMATIC"
+  },
+  "transitionRouteGroups": [ "survey" ]
+}

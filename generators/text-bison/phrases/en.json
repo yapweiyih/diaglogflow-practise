@@ -1,0 +1,6 @@
+{
+  "promptTexts": [ {
+    "text": "Given the user input below, provide a response:\\n\\nInput:\\n$last-user-utterance\\n\\nResponse:",
+    "languageCode": "en"
+  } ]
+}

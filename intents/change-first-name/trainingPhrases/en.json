@@ -1,0 +1,55 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "please update my ",
+      "auto": true
+    }, {
+      "text": "first",
+      "auto": true
+    }, {
+      "text": " name to ",
+      "auto": true
+    }, {
+      "text": "Mohammed",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": ", the ",
+      "auto": true
+    }, {
+      "text": "first",
+      "auto": true
+    }, {
+      "text": " name is wrong",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my ",
+      "auto": true
+    }, {
+      "text": "first",
+      "auto": true
+    }, {
+      "text": " name has changed to ",
+      "auto": true
+    }, {
+      "text": "Nozomi",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": ", i'd like to update the ",
+      "auto": true
+    }, {
+      "text": "first",
+      "auto": true
+    }, {
+      "text": " name on my account",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

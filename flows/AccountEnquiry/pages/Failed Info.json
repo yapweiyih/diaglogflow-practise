@@ -1,0 +1,23 @@
+{
+  "name": "6b9e80d6-b336-4171-8271-727e65d6ab4b",
+  "displayName": "Failed Info",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "We cant find your account id" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "b3a47153-c13c-4232-bcef-ed0a52b4b25e"
+  } ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "48f476a4-a733-4133-97b4-6a9e09f04550",
+  "displayName": "Get Tier",
+  "form": {
+    "parameters": [ {
+      "displayName": "phone-number",
+      "required": true,
+      "entityType": "@sys.phone-number",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What is the phone number on your account?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "tier",
+      "required": true,
+      "entityType": "@tier",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "What should your tier be changed to?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+  
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "List Tier",
+    "name": "3571b981-34f9-49e2-831f-a104af72fc10"
+  } ]
+}

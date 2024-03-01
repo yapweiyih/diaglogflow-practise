@@ -1,0 +1,19 @@
+{
+  "entities": [ {
+    "value": "pop",
+    "synonyms": [ "pop" ],
+    "languageCode": "en"
+  }, {
+    "value": "rock",
+    "synonyms": [ "rock", "rock \u0026 roll" ],
+    "languageCode": "en"
+  }, {
+    "value": "classical",
+    "synonyms": [ "classical", "opera" ],
+    "languageCode": "en"
+  }, {
+    "value": "jazz",
+    "synonyms": [ "jazz", "jazz fusion" ],
+    "languageCode": "en"
+  } ]
+}

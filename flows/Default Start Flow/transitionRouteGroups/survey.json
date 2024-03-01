@@ -1,0 +1,29 @@
+{
+  "name": "9737e880-3d17-453e-b8aa-fcc7b7c0e4a5",
+  "displayName": "survey",
+  "transitionRoutes": [ {
+    "intent": "survey-yes",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Great! Let's pretend you just took our survey. What else I can assist with?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Previous Page",
+    "name": "0a64bc57-af31-42cf-8ba8-081f75abaafd"
+  }, {
+    "intent": "survey-no",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "No problem. What else can I help you with?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "Previous Page",
+    "name": "9805fd93-3fe1-4da6-90a3-56892b9c09eb"
+  } ]
+}

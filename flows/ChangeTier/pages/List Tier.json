@@ -1,0 +1,28 @@
+{
+  "name": "8b950b6b-efcd-4c2c-9002-b2fe04293c15",
+  "displayName": "List Tier",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Is there anything else i can help?" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "Your tier has been updated to $session.params.tier. Anything else?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "targetPage": "End Flow",
+    "name": "5de76ded-1607-4274-84b8-908e09c9328d"
+  } ]
+}

@@ -1,0 +1,315 @@
+{
+  "trainingPhrases": [ {
+    "id": "7ce0433e-2d1b-4cac-9b03-80699bb79263",
+    "parts": [ {
+      "text": "你好",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "46d0109e-3d31-443a-b537-7a431602b774",
+    "parts": [ {
+      "text": "喂",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "af015a46-4486-4a39-8a75-c528de5b3fc7",
+    "parts": [ {
+      "text": "嗨",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "92635744-3668-4566-9d60-3db57d4ef259",
+    "parts": [ {
+      "text": "哈啰",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "8b38ae39-6c17-4dd3-946a-8d00cae4e1ad",
+    "parts": [ {
+      "text": "嘿",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "4aaafb30-ec75-4db4-8e70-485cf6ae47f5",
+    "parts": [ {
+      "text": "嗨 你好",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "85d3f2c1-1010-4480-b98d-4e9894ffb3e6",
+    "parts": [ {
+      "text": "嗨宝贝",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "63ae2e0d-b7d2-4009-8a9c-8572ebb3fc79",
+    "parts": [ {
+      "text": "嗨蜜糖",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "44e291a5-816b-4192-9392-a4194db18122",
+    "parts": [ {
+      "text": "嗨美女",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "adbb112f-a8c4-403c-850e-4bb8f3e2300e",
+    "parts": [ {
+      "text": "嗨甜心",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "79c4a6e9-0454-48a6-bd4c-b6147e5b3b20",
+    "parts": [ {
+      "text": "嗨飞飞",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "a7db69e4-2d57-4116-90ee-fc6cffb5bffd",
+    "parts": [ {
+      "text": "嗨老婆",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "8bfe068f-f37a-478e-a361-a69dce9c402c",
+    "parts": [ {
+      "text": "嗨爱人",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "651e5fcd-eccd-410d-a0af-e79731a54e78",
+    "parts": [ {
+      "text": "嗨可爱的",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "b9a2de3c-049f-4279-bd25-d3c8ffecc561",
+    "parts": [ {
+      "text": "嗨 亲爱的",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "f04cecee-fcb9-4f10-a625-e6f1438a62ba",
+    "parts": [ {
+      "text": "嗨你好朋友",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "36110170-27a4-4c87-9df1-020669e1b1f4",
+    "parts": [ {
+      "text": "哈啰老婆",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "352bdcb9-61d2-4d67-a5f2-c489e05ae1d4",
+    "parts": [ {
+      "text": "哈啰飞飞",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "182be94a-8fd1-4b28-a370-e76a7ba0e104",
+    "parts": [ {
+      "text": "哈啰宝贝",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "c0eaea9a-5fc3-4487-8394-375270a6ef49",
+    "parts": [ {
+      "text": "哈啰美女",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "85086e7e-8fe0-426f-8bea-0dc6ec8d91e6",
+    "parts": [ {
+      "text": "哈啰甜心",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "1496cad0-efe6-4b5d-b7be-1d67e8b668c9",
+    "parts": [ {
+      "text": "哈啰朋友",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "c18a6d5b-d5a9-434b-ba26-6202b9cadc70",
+    "parts": [ {
+      "text": "哈啰你好",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "48168472-2e9d-47f2-85d1-28323e488edc",
+    "parts": [ {
+      "text": "哈啰我亲爱的",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "c8b1c8f7-9068-4832-9b1f-c2091a52e739",
+    "parts": [ {
+      "text": "嘿 你好",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "f40433c5-81b5-427a-b867-cdbbf7de003f",
+    "parts": [ {
+      "text": "嘿老婆",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "6709db0f-a3cf-4e32-91c5-3ef19d9cbb90",
+    "parts": [ {
+      "text": "嘿飞飞",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "77d4dd00-f16b-4031-818d-3cce80343968",
+    "parts": [ {
+      "text": "嘿美女",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "7fec3366-0eca-43f2-90e8-a780fc66e260",
+    "parts": [ {
+      "text": "嘿伙伴",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "eb8a5c8c-a2d5-42f2-b199-01fd099c224f",
+    "parts": [ {
+      "text": "嘿女孩",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "95f34c6a-e7df-4dea-bf5d-8185eed8f5c6",
+    "parts": [ {
+      "text": "嘿助手",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "1301a372-9167-419f-a866-f3099672e67c",
+    "parts": [ {
+      "text": "嘿可爱的",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "2a61e594-d439-4b70-82c9-d6894cf7fcc3",
+    "parts": [ {
+      "text": "只想给你打个招呼",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "756dd462-3a84-462a-9489-20dbc103e06a",
+    "parts": [ {
+      "text": "美好的一天对吧",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "9a23650c-6437-48f6-8788-98a86f31e475",
+    "parts": [ {
+      "text": "再一次问好",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "c68656f6-dc41-4e97-ae00-d18e74d731ff",
+    "parts": [ {
+      "text": "好久不见",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "f47f4785-ae11-4b80-b85d-af8055bcdfc2",
+    "parts": [ {
+      "text": "哈喽",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "5a899749-66e5-47a8-baa2-b56e05523524",
+    "parts": [ {
+      "text": "你好啊",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  }, {
+    "id": "1027a983-c2c4-4748-8fc9-83b62e66ee30",
+    "parts": [ {
+      "text": "嘿嘿",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "zh-cn"
+  } ]
+}

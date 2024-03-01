@@ -1,0 +1,10 @@
+{
+  "name": "04cea498-6218-4047-ab1e-c3ebba141844",
+  "displayName": "change-last-name",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}

@@ -1,0 +1,10 @@
+{
+  "name": "adc92afe-d3c6-49c9-9450-58332728118c",
+  "displayName": "check.balance",
+  "parameters": [ {
+    "id": "account_type",
+    "entityType": "@account_type"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}

@@ -1,0 +1,28 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "please update my last name to ",
+      "auto": true
+    }, {
+      "text": "Dhali",
+      "parameterId": "person",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "my last name has changed to ",
+      "auto": true
+    }, {
+      "text": "Wang",
+      "parameterId": "person",
+      "auto": true
+    }, {
+      "text": ", i'd like to update the last name on my account",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

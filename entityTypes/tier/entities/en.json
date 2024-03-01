@@ -1,0 +1,15 @@
+{
+  "entities": [ {
+    "value": "silver",
+    "synonyms": [ "affordable", "basic", "cheapest", "first tier", "level one", "lowest", "lowest level", "silver", "standard" ],
+    "languageCode": "en"
+  }, {
+    "value": "gold",
+    "synonyms": [ "gold", "level two", "medium priced", "mid level", "mid tier", "middle", "next level up", "next step up" ],
+    "languageCode": "en"
+  }, {
+    "value": "platinum",
+    "synonyms": [ "advanced", "best", "highest", "highest level", "level three", "platinum", "premium", "top level", "top tier" ],
+    "languageCode": "en"
+  } ]
+}

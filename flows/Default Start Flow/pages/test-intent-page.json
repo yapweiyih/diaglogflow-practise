@@ -1,0 +1,47 @@
+{
+  "name": "48a27520-73c2-4c7c-adf1-60c50dd8bcd1",
+  "displayName": "test-intent-page",
+  "form": {
+    "parameters": [ {
+      "displayName": "age",
+      "required": true,
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "what is your age?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    }, {
+      "displayName": "optional-var",
+      "entityType": "@sys.number-integer",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      },
+      "defaultValue": "999"
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "retrieve {intent.params.person.original}: $intent.params.person.original", "retrieve {page.params.test-intent-preset}: $page.params.test-intent-preset" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "getMostPlayed",
+      "tag": "test-intent-page-route"
+    },
+    "targetPage": "End Flow",
+    "name": "45087681-ebf1-4dbb-9fc7-b28aef5ea122"
+  } ]
+}

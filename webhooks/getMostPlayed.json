@@ -1,0 +1,10 @@
+{
+  "name": "ee26e7f2-28ea-439b-abcf-86fdcc076aaf",
+  "displayName": "getMostPlayed",
+  "genericWebService": {
+    "uri": "https://asia-southeast1-dialogflow-408609.cloudfunctions.net/test-function"
+  },
+  "timeout": {
+    "seconds": 15
+  }
+}

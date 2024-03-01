@@ -1,0 +1,45 @@
+{
+  "name": "f7d3118c-2ca3-4164-bddc-c403f43f0226",
+  "displayName": "AccountEnquiry",
+  "transitionRoutes": [ {
+    "intent": "account-enquiry",
+    "triggerFulfillment": {
+      "setParameterActions": [ {
+        "parameter": "account-id",
+        "value": null
+      }, {
+        "parameter": "status",
+        "value": null
+      } ]
+    },
+    "targetPage": "Get Info",
+    "name": "ee01be36-b6b3-47a0-9b36-b5f28d76af23"
+  } ],
+  "eventHandlers": [ {
+    "event": "sys.no-match-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "09e12442-1b33-4916-9304-a03f95d7c2db"
+  }, {
+    "event": "sys.no-input-default",
+    "triggerFulfillment": {
+      "messages": [ {
+        "text": {
+          "text": [ "I didn't get that. Can you say it again?", "I missed what you said. What was that?", "Sorry, could you say that again?", "Sorry, can you say that again?", "Can you say that again?", "Sorry, I didn't get that. Can you rephrase?", "Sorry, what was that?", "One more time?", "What was that?", "Say that one more time?", "I didn't get that. Can you repeat?", "I missed that, say that again?" ]
+        },
+        "languageCode": "en"
+      } ]
+    },
+    "name": "731c0e3f-2c7d-4414-a373-fa0c9ab07bce"
+  } ],
+  "nluSettings": {
+    "modelType": "MODEL_TYPE_STANDARD",
+    "classificationThreshold": 0.30000001
+  }
+}

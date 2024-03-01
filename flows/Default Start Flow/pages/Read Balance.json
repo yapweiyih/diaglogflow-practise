@@ -1,0 +1,23 @@
+{
+  "name": "a767e44d-53d3-47eb-9707-84b7f12df88a",
+  "displayName": "Read Balance",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "Your balance is $10" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "2c544e11-d1cc-4bbf-b9ab-6576aa1b3ede"
+  } ]
+}

@@ -1,0 +1,13 @@
+{
+  "name": "bfdc6627-a79d-48b9-9811-bdd500f7f155",
+  "displayName": "text-bison",
+  "modelParameter": {
+    "temperature": 0.5,
+    "maxDecodeSteps": 128,
+    "topP": 0.94999999,
+    "topK": 40
+  },
+  "llmModelSettings": {
+    "model": "text-bison"
+  }
+}

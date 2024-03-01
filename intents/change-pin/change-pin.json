@@ -1,0 +1,10 @@
+{
+  "name": "9e4eaea7-7c17-4953-b419-5df68afd9ea4",
+  "displayName": "change-pin",
+  "parameters": [ {
+    "id": "pin",
+    "entityType": "@pin"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 3
+}

@@ -1,0 +1,25 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "Tell me my "
+    }, {
+      "text": "current",
+      "parameterId": "account_type"
+    }, {
+      "text": " account balance"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "What is my "
+    }, {
+      "text": "saving",
+      "parameterId": "account_type"
+    }, {
+      "text": " balance?"
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

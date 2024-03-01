@@ -1,0 +1,23 @@
+{
+  "name": "be89b45e-015a-4c77-b18c-2cac486d73dd",
+  "displayName": "List Info",
+  "form": {
+  
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "The account balance is $session.params.amount." ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "End Flow",
+    "name": "b6f18104-6610-481b-acab-6daede6397ca"
+  } ]
+}

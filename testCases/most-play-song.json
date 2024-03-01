@@ -1,0 +1,73 @@
+{
+  "name": "52a0e2c6-4bfd-41e9-95c2-8eaf04292722",
+  "displayName": "most-play-song",
+  "testCaseConversationTurns": [ {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "most play song"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "triggeredIntent": {
+        "name": "list-most-played"
+      },
+      "currentPage": {
+        "name": "Get Most Played",
+        "flow": "ListMostPlayed"
+      },
+      "textResponses": [ {
+        "text": [ "For which genre?" ]
+      } ],
+      "currentFlow": {
+        "name": "ListMostPlayed"
+      }
+    }
+  }, {
+    "userInput": {
+      "isWebhookEnabled": true,
+      "input": {
+        "text": {
+          "text": "classic"
+        },
+        "languageCode": "en"
+      }
+    },
+    "virtualAgentOutput": {
+      "sessionParameters": {
+        "genre": "classical"
+      },
+      "currentPage": {
+        "name": "Start Page",
+        "flow": "Default Start Flow"
+      },
+      "textResponses": [ {
+        "text": [ "The most played song in classical is x" ]
+      }, {
+        "text": [ "Anything else I can do for you?" ]
+      } ],
+      "currentFlow": {
+        "name": "Default Start Flow"
+      }
+    },
+    "expectations": {
+      "expectedSessionParameters": [ {
+        "key": "genre",
+        "value": "classical"
+      } ]
+    }
+  } ],
+  "creationTime": {
+    "seconds": 1704014403,
+    "nanos": 927546000
+  },
+  "testConfig": {
+    "trackingParameters": [ "genre" ],
+    "flow": "Default Start Flow",
+    "page": "Start Page"
+  },
+  "languageCode": "en"
+}

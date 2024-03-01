@@ -1,0 +1,33 @@
+{
+  "name": "f46d993c-7e9f-4a7d-977a-8aa28a299c84",
+  "displayName": "Get account type",
+  "form": {
+    "parameters": [ {
+      "displayName": "account_type",
+      "required": true,
+      "entityType": "@account_type",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+        
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "May i know for which account? (Answere either Saving or Current)" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "true",
+    "triggerFulfillment": {
+    
+    },
+    "targetPage": "Read Balance",
+    "name": "4211fea4-1d7f-489a-90a7-7cdaf3ab9ad9"
+  } ],
+  "description": "Get account type"
+}

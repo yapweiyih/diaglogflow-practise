@@ -1,0 +1,10 @@
+{
+  "name": "7914f9e1-4fdc-4098-abfb-3bc2497a8f85",
+  "displayName": "change-tier",
+  "parameters": [ {
+    "id": "tier",
+    "entityType": "@tier"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 5
+}

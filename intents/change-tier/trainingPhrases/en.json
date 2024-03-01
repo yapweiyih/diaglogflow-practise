@@ -1,0 +1,66 @@
+{
+  "trainingPhrases": [ {
+    "parts": [ {
+      "text": "I want to change to a different service tier",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Can I get the ",
+      "auto": true
+    }, {
+      "text": "platinum",
+      "parameterId": "tier",
+      "auto": true
+    }, {
+      "text": " tier",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'd like your ",
+      "auto": true
+    }, {
+      "text": "best",
+      "parameterId": "tier",
+      "auto": true
+    }, {
+      "text": " service",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "Please give me your ",
+      "auto": true
+    }, {
+      "text": "medium priced",
+      "parameterId": "tier",
+      "auto": true
+    }, {
+      "text": " package",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  }, {
+    "parts": [ {
+      "text": "I'm gonna go with your most ",
+      "auto": true
+    }, {
+      "text": "affordable",
+      "parameterId": "tier",
+      "auto": true
+    }, {
+      "text": " option",
+      "auto": true
+    } ],
+    "repeatCount": 1,
+    "languageCode": "en"
+  } ]
+}

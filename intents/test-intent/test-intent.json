@@ -1,0 +1,10 @@
+{
+  "name": "fec0e4c7-a3f9-49ea-b413-96fd869f1977",
+  "displayName": "test-intent",
+  "parameters": [ {
+    "id": "person",
+    "entityType": "@sys.person"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 2
+}

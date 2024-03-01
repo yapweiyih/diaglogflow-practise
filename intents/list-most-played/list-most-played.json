@@ -1,0 +1,10 @@
+{
+  "name": "543a51ba-1468-467c-9d83-3a577b480f83",
+  "displayName": "list-most-played",
+  "parameters": [ {
+    "id": "genre",
+    "entityType": "@genre"
+  } ],
+  "priority": 500000,
+  "numTrainingPhrases": 1
+}

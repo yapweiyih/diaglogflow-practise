@@ -1,0 +1,38 @@
+{
+  "name": "577b36ce-9e29-4406-b928-f1e60a5720c6",
+  "displayName": "Get Most Played",
+  "form": {
+    "parameters": [ {
+      "displayName": "genre",
+      "required": true,
+      "entityType": "@genre",
+      "fillBehavior": {
+        "initialPromptFulfillment": {
+          "messages": [ {
+            "text": {
+              "text": [ "For which genre?" ]
+            },
+            "languageCode": "en"
+          } ]
+        }
+      }
+    } ]
+  },
+  "entryFulfillment": {
+    "messages": [ {
+      "text": {
+        "text": [ "{$page.params.status}: $page.params.status" ]
+      },
+      "languageCode": "en"
+    } ]
+  },
+  "transitionRoutes": [ {
+    "condition": "$page.params.status = FINAL",
+    "triggerFulfillment": {
+      "webhook": "getMostPlayed",
+      "tag": "most_played"
+    },
+    "targetPage": "List Most Played",
+    "name": "ab388aee-2617-4881-abce-e11119a9e5fb"
+  } ]
+}
